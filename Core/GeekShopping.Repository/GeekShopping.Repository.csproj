@@ -12,7 +12,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Repository\" />
+    <Folder Include="Context\" />
+    <Folder Include="UoW\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Interface\GeekShopping.Repository.Interface\GeekShopping.Repository.Interface.csproj" />
   </ItemGroup>
 
 </Project>
